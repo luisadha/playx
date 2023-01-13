@@ -7,19 +7,21 @@ Requirements package
 
 - bc
 
-# Usage :
+## Usage :
 
 bash playx FILE
 
-# Support format:
+## Support format:
 (.mp3)
 
 (.mp4)
 
-# Bug:
+## Bug:
 Can't play media less than 1 minute or more than 9 minutes.
 
-Rekomendasi aplikasi pihak ketiga :
+## Rekomendasi aplikasi pihak ketiga :
 
 Amze media player
 
+## Licence
+MIT License 
