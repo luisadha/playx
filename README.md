@@ -18,3 +18,8 @@ bash playx FILE
 
 # Bug:
 Can't play media less than 1 minute or more than 9 minutes.
+
+Rekomendasi aplikasi pihak ketiga :
+
+Amze media player
+
