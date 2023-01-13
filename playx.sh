@@ -20,6 +20,7 @@
 # version 1.0
 
 nohup mpv $0 "$1" & 2>/dev/null;
+sleep 1
  kill -TERM $!
 clear
 # set -xv
