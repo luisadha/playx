@@ -13,7 +13,7 @@
 # Copyright (c) 2023 @luisadha
 # MIT License 
 # bug fixed
-# version 1.0.1
+# version 1.0.2
 
 convertime ()
 {
