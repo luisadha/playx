@@ -1,4 +1,5 @@
-# playx
+branpic is the same as playx
+
 
 PLAYX (Media player) Simple media player for termux using android.intent.action.VIEW which makes the user interface more familiar than dealing with the cli entirely. will be integrated with the default music player 
 
