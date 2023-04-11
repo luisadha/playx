@@ -1,0 +1,26 @@
+
+# skrip ini untuk memperbaiki error pada script branpick-player yang mana sudah di engkrip
+#
+ player='branpick-player'
+function main() {
+  local arg1="${1}"
+#local arg1asfile="$(echo "$1" | sed 's/\///g')"
+#local err1=${1?Error: no such directory. }
+#local arg2="$2"
+#local err2=${2?Error: Format salah atau mungkin maksud anda $file $arg1asfile? \ Format yang benar: ${BASH_SOURCE[0]} DIR FILE }
+#Diataas sudah tidk digunakan
+#
+BIFS="$IFS"
+# set ifs untuk menghindari error nama file yang pakai spasi
+IFS='\'
+local err3=$(echo " ") # eroor tidak disetel alih2 bawaan
+
+cd "$(dirname ${arg1:-"$err3"})" && $player $(basename ${arg1:-"$err3"}) || echo $err3
+# gak perlu ada devnull 2>/dev/null ganti dgn err3
+ 
+ cd - &>/dev/null; #ini perlu
+ }
+ main "$1"
+# restore ifs
+ IFS="$BIFS"
+
